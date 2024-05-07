@@ -1,0 +1,384 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.main{
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    transition-property: all;
+    transition-duration:3s ;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 3vh;
+    cursor: pointer;
+}
+.main:hover{
+    transform: translate(30px);
+}
+.main-one>ol{
+    list-style: none;
+    margin-top: 4vh;  
+    color: blue ;
+    font-size: 20PX;
+    margin-left: -9vh;
+}
+.main-one>ol>li{
+    float: left;
+    margin-left: 10vw;
+    transition-property: all;
+    transition-duration: 2s ;
+    cursor: pointer;
+}
+.main-one>ol>li:hover{
+transform: scale(1.2);
+}
+/*  <!-- _______________1st-Section(Start)_______________ --> */
+.first{
+    height: 50v;
+    width: 40%;
+    margin-top: 22vh;
+    margin-left: 2vw;
+    overflow: hidden;
+}
+.first>img{
+    height: 100%;
+    width: 100%;
+    transition-property: all;
+    transition-duration: 2s ;
+}
+.first>img:hover{
+    transform: scale(1.2);
+    overflow: hidden;
+
+}
+.first-one{
+    height: 50v;
+    width: 45%;
+    margin-top: -55vh;
+    margin-left: 54%;
+    transition-property: all;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+.first-one:hover{
+    transform: skewX(15deg);
+}
+.first-one>h1{
+    padding: 26px;
+    font-size: 30px;
+    transition-property:all ;
+    transition-duration: 2s;
+    text-transform: uppercase;
+
+}
+.first-one>h1:hover{
+    transform: scale(1.1);
+}
+.first-one>button{
+    width: 10vw;
+    height: 7vh;
+    border-radius: 20px;    
+    margin-left: 250px;
+    /* background-color:  rgba(74, 74, 248, 0.616); */
+    background-image: linear-gradient(to left,blue, rgba(0, 0, 255, 0.205));
+    border: none;
+    cursor: pointer;
+}
+.first-one>button:hover{
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.205),blue);
+
+}
+
+/* <!-- _______________1st-Section(End)_______________ --> */
+/* <!-- _______________2nd-Section(Start)_______________ --> */
+ .second{
+   height: 20vh;
+   width: 100%;
+   text-align: center;
+   margin-top: 15vh;
+   padding-top: 5vh;
+ }
+ .second>h1{
+     font-size: 34px;
+   transition-property: all;
+   transition-duration: 1s;
+   cursor: pointer;
+   padding-top: 6vh;
+ }
+ .second>h1:hover{
+     transform: translate(20px);
+ }
+ .one{
+ transition-property: all;
+ transform: skewY(-10deg);
+  height: 37vh;
+  width: 20%;
+  box-shadow: 10px -10px 5px 5px rgb(27, 173, 154) ;
+  margin-left: 4vw;
+  border-radius: 10px;
+ }
+ .one:hover{
+     cursor: pointer;
+     transition-duration: 2s;
+     transition-property: all ;
+     transform: skewY(5deg);
+ }
+ .two{
+     height: 37vh;
+     width: 20%;
+     box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+     border-radius: 10px;
+     margin-left: 2vw;
+     transition-property: all;
+     transform: skewY(10deg);
+     margin-top: 2vw;
+ }
+ .two:hover{
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-property: all ;
+    transform: skewY(5deg);
+ }
+ .three{
+    height: 37vh;
+    width: 20%;
+    box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+    border-radius: 10px;
+    margin-left: 2vw;
+    transition-property: all;
+    transform: skewY(-11deg);
+ }
+ .three:hover{
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-property: all ;
+    transform: skewY(5deg);
+ }
+    .four{
+    height: 37vh;
+    width: 20%;
+    box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+    border-radius: 10px;
+    margin-left: 2vw;
+    transition-property: all;
+    transition-duration: 2s;
+    transform: skewY(12deg);
+ }
+ .four:hover{
+    cursor: pointer;
+    transition-duration: 2s;
+    transition-property: all;
+    transform: skewY(5deg);
+ }
+ .second-two{
+     margin-top: 10vh;
+ }
+
+.five{
+    transition-property: all;
+    transform: skewY(-10deg);
+     height: 37vh;
+     width: 20%;
+     box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+     margin-left: 3vw;
+     border-radius: 10px;
+     margin-top: 2vh;
+    }
+    .five:hover{
+        cursor: pointer;
+        transition-duration: 2s;
+        transition-property: all ;
+        transform: skewY(5deg);
+    }
+    .six{
+        height: 37vh;
+        width: 20%;
+        box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+        border-radius: 10px;
+        margin-left: 2vw;
+        transition-property: all;
+        transform: skewY(10deg);
+        margin-top: 2vw;
+    }
+    .six:hover{
+       cursor: pointer;
+       transition-duration: 2s;
+       transition-property: all ;
+       transform: skewY(5deg);
+    }
+    .seven{
+       height: 37vh;
+       width: 20%;
+       box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+       border-radius: 10px;
+       margin-left: 2vw;
+       transition-property: all;
+       transform: skewY(-11deg);
+    }
+    .seven:hover{
+       cursor: pointer;
+       transition-duration: 2s;
+       transition-property: all ;
+       transform: skewY(5deg);
+    }
+    .eight{
+       height: 37vh;
+       width: 20%;
+       box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+       margin-left: 2vw;
+       transition-property: all;
+       transition-duration: 2s;
+       transform: skewY(12deg);
+       border-radius: 10px;
+    }
+    .eight:hover{
+       cursor: pointer;
+       transition-duration: 2s;
+       transition-property: all;
+       transform: skewY(5deg);
+    }
+/* <!-- _______________2nd-Section(End)_______________ --> */
+
+/* <!-- _______________3rd-Section(Start)_______________ --> */
+.third{
+    height: 20vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh;
+    padding-top: 5vh;
+  }
+  .third>h1{
+      font-size: 34px;
+    transition-property: all;
+    transition-duration: 1s;
+    cursor: pointer;
+    padding-top: 6vh;
+  }
+  .third>h1:hover{
+      transform: translate(20px);
+  }
+  .aaa{
+  transition-property: all;
+  transform: skewX(20deg);
+   height: 37vh;
+   width: 20%;
+   box-shadow: 10px -10px 5px 5px rgb(27, 173, 154) ;
+   margin-left: 7vw;
+   border-radius: 10px;
+  }
+  .aaa:hover{
+      cursor: pointer;
+      transition-duration: 3s;
+      transition-property: all ;
+      transform: skewx(-15deg);
+  }
+  .bbb{
+      height: 37vh;
+      width: 20%;
+      box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+      border-radius: 10px;
+      margin-left: 3vw;
+      transition-property: all;
+      transform: skewY(20deg);
+      margin-top: 2vw;
+  }
+  .bbb:hover{
+     cursor: pointer;
+     transition-duration: 3s;
+     transition-property: all ;
+     transform: skewY(-15deg);
+  }
+  .ccc{
+     height: 37vh;
+     width: 20%;
+     box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+     border-radius: 10px;
+     margin-left: 2vw;
+  }
+  .ccc:hover{
+     cursor: pointer;
+     transition-duration: 3s;
+     transition-property: all ;
+     transform: skewY(15deg);
+  }
+     .ddd{
+     height: 37vh;
+     width: 20%;
+     box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+     border-radius: 10px;
+     margin-left: 2vw;
+  }
+  .ddd:hover{
+     cursor: pointer;
+     transition-duration: 4s;
+     transition-property: all;
+     transform: skewY(15deg);
+  }
+  .third-two{
+      margin-top: 10vh;
+  }
+ 
+ .eee{
+     transition-property: all;
+          transform: skewX(20deg);
+      height: 37vh;
+      width: 20%;
+      box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+      margin-left: 7Vw;
+      border-radius: 10px;
+      margin-top: 2vh;
+     }
+     .eee:hover{
+         cursor: pointer;
+         transition-duration: 2s;
+         transition-property: all ;
+         transform: skewx(-15deg);
+
+     }
+     .fff{
+        height: 37vh;
+        width: 20%;
+        box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+        border-radius: 10px;
+        margin-left: 3vw;
+        transition-property: all;
+        transform: skewY(20deg);
+        margin-top: 2vw;
+    }
+    .fff:hover{
+       cursor: pointer;
+       transition-duration: 3s;
+       transition-property: all ;
+       transform: skewY(-15deg);
+    }
+    .ggg{
+        height: 37vh;
+        width: 20%;
+        box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+        border-radius: 10px;
+        margin-left: 2vw;
+        transition-property: all;
+        /* transform: skewY(-11deg); */
+     }
+     .ggg:hover{
+        cursor: pointer;
+        transition-duration: 3s;
+        transition-property: all ;
+        transform: skewY(15deg);
+     }
+     .hhh{
+        height: 37vh;
+        width: 20%;
+        box-shadow: 10px -10px 5px 5px rgb(27, 173, 154);
+        border-radius: 10px;
+        margin-left: 2vw;
+        transition-property: all;
+        transition-duration: 4s;
+     }
+     .hhh:hover{
+        cursor: pointer;
+        transition-property: all;
+        transform: skewY(15deg);
+     }
+ /* <!-- _______________3rd-Section(End)_______________ --> */
